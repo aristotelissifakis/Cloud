@@ -1,0 +1,15 @@
+README
+:author: Aristotelis, Christos, Nikos
+:revdate: 2024-06-19
+
+== Virtual Lab Overview
+
+This virtual lab provides a set of Docker containers, each running a specific service such as VLC.
+
+== Services and Tools
+
+- VLC Media Player
+
+== Network Configuration
+
+Each service runs in its own isolated network.
