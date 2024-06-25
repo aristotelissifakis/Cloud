@@ -19,4 +19,4 @@ It uses Xvfb (X virtual framebuffer) to simulate a display for VLC.
 
    ```sh
    git clone https://github.com/aristotelissifakis/Cloud
-   cd vlc-container
+   cd Cloud/vlc-container
