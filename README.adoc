@@ -23,7 +23,7 @@ This Docker container runs VLC media player in a headless environment using Xvfb
 [source,sh]
 ----
 git clone https://github.com/aristotelissifakis/Cloud
-cd vlc-container
+cd Cloud/vlc-container
 ----
 
 2. Build the Docker Image:
