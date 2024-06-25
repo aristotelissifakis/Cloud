@@ -28,7 +28,9 @@ COPY video.mp4 /home/vlcuser/video.mp4
 COPY entrypoint.sh /home/vlcuser/entrypoint.sh
 
 # Ensure the entrypoint script is executable
-#RUN chmod +x /home/vlcuser/entrypoint.sh
+USER root
+RUN chmod +x /home/vlcuser/entrypoint.sh
+USER vlcuser
 
 # Set the entry point to the script
 ENTRYPOINT ["/home/vlcuser/entrypoint.sh"]
